@@ -6,6 +6,11 @@
   url(../fonts/AvertaStd-Bold.ttf) format('opentype')  
 }
 
+@font-face {
+  font-family: 'AvertaStd Regular';
+  src: url(../fonts/AvertaStd-Regular.ttf) format('opentype');
+}
+
 
 :root {
   /* Paleta Principal */
@@ -20,10 +25,20 @@
   --branco:#FFFFFF;
 }
 
-html {
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+
   font-family: 'AvertaStd';
   font-size: 1rem;
 }
+
+body {
+  font-family: 'AvertaStd Regular';
+  color: var(--p-cinza);
+}
+
+
 
 
 

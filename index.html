@@ -1,70 +1,272 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
 
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+      integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+      crossorigin="anonymous"
+    />
+    <link href="/src/fontawesome/css/all.css" rel="stylesheet" />
+    <link rel="stylesheet" href="/src/css/styles.css" />
+    <link rel="stylesheet" href="/src/css/index.css" />
 
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
-    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous" />
-  <link rel="stylesheet" href="/src/css/styles.css" />
-  <link rel="stylesheet" href="/src/css/index.css" />
+    <title>MRV Teste</title>
+  </head>
 
-  <title>Olá, mundo!</title>
-</head>
+  <body>
+    <!-- <section class="banner">
+      <h2 class="text-banner">
+        Trabalhe conosco <br />
+        nessa transformação
+      </h2>
 
+      <img class="img-banner" src="/src/img/initial.png" />
+    </section> -->
 
-<body>
-  <div>
-    <!-- <header>
-      <img src="/src/img/header.png" />
-    </header> -->
+    <ul class="breadcrumb">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#pessoas">Pessoas</a></li>
+      <li><a href="#trabalhe-conosco">Trabalhe Conosco</a></li>
+    </ul>
 
-    <main #home>
+    <section class="description">
+      <div class="container grid">
+        <h4 class="title">Explore novas oportunidades na sua carreira</h4>
+        <p>
+          Quer fazer parte da equipe de
+          <b>
+            uma das melhores empresas para se trabalhar segundo o Great Place To
+            Work 2022?</b
+          >
+        </p>
+        <p>
+          Então, junte-se a nós e amplie suas chances de mudar a vida de
+          milhares de pessoas, e a sua também.
+        </p>
+        <button type="button" class="btn btn-mvp">Conferir vagas</button>
+      </div>
+    </section>
 
-      <!--HOME-->
-      <section class="section" id="banner">
-        <div class="container grid">
-          <h4 class="title">Explore novas oportunidades na sua carreira</h4>
-          <p>Quer fazer parte da equipe de <b> uma das melhores empresas para se trabalhar segundo o Great Place To Work
-              2022</b>?</p>
-          <p>Então, junte-se a nós e amplie suas chances de mudar a vida de milhares de pessoas, e a sua também.</p>
-          <button type="button" class="btn btn-mvp">Conferir vagas</button>
+    <section class="values">
+      <h2>Nossos valores</h2>
+      <p>Conheça os valores que nos guiam:</p>
+
+      <div class="nossos-valores">
+        <div
+          class="accordion md-accordion"
+          id="accordionEx"
+          role="tablist"
+          aria-multiselectable="true"
+        >
+          <div class="card item">
+            <div class="card-header" role="tab" id="headingOne1">
+              <a
+                data-toggle="collapse"
+                data-parent="#accordionEx"
+                href="#collapseOne1"
+                aria-expanded="true"
+                aria-controls="collapseOne1"
+              >
+                <h5 class="mb-0">
+                  Sua Beleza
+                  <i class="fas fa-angle-down rotate-icon"></i>
+                </h5>
+              </a>
+            </div>
+
+            <div
+              id="collapseOne1"
+              class="collapse show"
+              role="tabpanel"
+              aria-labelledby="headingOne1"
+              data-parent="#accordionEx"
+            >
+              <div class="card-body">
+                Sabemos que com a rotina agitada nem sempre sobre tempo para se
+                cuidar. Por isso o programa Sua Beleza traz para dentro da MRV
+                um “salão de beleza”, facilitando cuidados de rotina.
+              </div>
+            </div>
+          </div>
+
+          <div class="card item">
+            <!-- Card header -->
+            <div class="card-header" role="tab" id="headingTwo2">
+              <a
+                class="collapsed"
+                data-toggle="collapse"
+                data-parent="#accordionEx"
+                href="#collapseTwo2"
+                aria-expanded="false"
+                aria-controls="collapseTwo2"
+              >
+                <h5 class="mb-0">
+                  Sua Mente
+                  <i class="fas fa-angle-down rotate-icon"></i>
+                </h5>
+              </a>
+            </div>
+
+            <!-- Card body -->
+            <div
+              id="collapseTwo2"
+              class="collapse"
+              role="tabpanel"
+              aria-labelledby="headingTwo2"
+              data-parent="#accordionEx"
+            >
+              <div class="card-body"></div>
+            </div>
+          </div>
         </div>
-      </section>
 
-      <section class="section" id="valores">
-        <div class="container grid">
-          <h4 class="title">Nossos Valores</h4>
-          <p>Conheça os valores que nos guiam:</p>
+        <div
+          class="accordion md-accordion"
+          id="accordionEx"
+          role="tablist"
+          aria-multiselectable="true"
+        >
+          <div class="card item">
+            <div class="card-header" role="tab" id="headingThree3">
+              <a
+                data-toggle="collapse"
+                data-parent="#accordionEx"
+                href="#collapseThree3"
+                aria-expanded="true"
+                aria-controls="#collapseThree3"
+              >
+                <h5 class="mb-0">
+                  Encontro
+                  <i class="fas fa-angle-down rotate-icon"></i>
+                </h5>
+              </a>
+            </div>
+
+            <div
+              id="#collapseThree3"
+              class="collapse"
+              role="tabpanel"
+              aria-labelledby="headingThree3"
+              data-parent="#accordionEx"
+            >
+              <div class="card-body"></div>
+            </div>
+          </div>
+
+          <div class="card item">
+            <div class="card-header" role="tab" id="headingFour4">
+              <a
+                class="collapsed"
+                data-toggle="collapse"
+                data-parent="#accordionEx"
+                href="#collapseFour4"
+                aria-expanded="false"
+                aria-controls="collapseFour4"
+              >
+                <h5 class="mb-0">
+                  Seu Estilo
+                  <i class="fas fa-angle-down rotate-icon"></i>
+                </h5>
+              </a>
+            </div>
+
+            <div
+              id="collapseFour4"
+              class="collapse"
+              role="tabpanel"
+              aria-labelledby="headingFour4"
+              data-parent="#accordionEx"
+            >
+              <div class="card-body"></div>
+            </div>
+          </div>
         </div>
-      </section>
+      </div>
+    </section>
 
-      <section class="section" id="espaço">
-        <div class="container grid">
-          <h4 class="title">Conheça nosso espaço</h4>
-          <p> Temos um ambiente dinâmico, que estimula o aprendizado e convida
-            todos a pensarem no bem comum. Afinal, estamos construindo hoje as
-            bases para um mundo melhor, cheio de inovação, sustentabilidade e
-            intregidade. E tudo isso a gente já encontra por aqui.
-          </p>
+    <section class="nosso-espaco">
+      <div class="container grid">
+        <h4 class="title">Conheça nosso espaço</h4>
+        <p>
+          Temos um ambiente dinâmico, que estimula o aprendizado e convida todos
+          a pensarem no bem comum. Afinal, estamos construindo hoje as bases
+          para um mundo melhor, cheio de inovação, sustentabilidade e
+          intregidade. E tudo isso a gente já encontra por aqui.
+        </p>
+      </div>
+
+      <div
+        id="carouselExampleControls"
+        class="carousel slide"
+        data-ride="carousel"
+      >
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src="/src/img/carroseul-1.png"
+              class="d-block w-100"
+              alt="Nosso Espaço"
+            />
+          </div>
         </div>
-      </section>
+        <a
+          class="carousel-control-prev"
+          href="#carouselExampleControls"
+          role="button"
+          data-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a
+          class="carousel-control-next"
+          href="#carouselExampleControls"
+          role="button"
+          data-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </section>
 
-      <!-- <footer>
-      <img src="/src/img/footer.png" />
-    </footer> -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+      integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+      integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+      crossorigin="anonymous"
+    ></script>
 
-      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
-      </script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
-        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous">
-      </script>
-      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
-        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous">
-      </script>
-    </main>
-</body>
-
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+      integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+      integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
