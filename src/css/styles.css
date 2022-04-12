@@ -6,6 +6,11 @@
   url(../fonts/AvertaStd-Bold.ttf) format('opentype')  
 }
 
+@font-face {
+  font-family: 'AvertaStd Regular';
+  src: url(../fonts/AvertaStd-Regular.ttf) format('opentype');
+}
+
 
 :root {
   /* Paleta Principal */
@@ -23,6 +28,10 @@
 html {
   font-family: 'AvertaStd';
   font-size: 1rem;
+}
+
+body {
+  font-family: 'AvertaStd Regular'
 }
 
 

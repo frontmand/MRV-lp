@@ -13,6 +13,7 @@
       integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
       crossorigin="anonymous"
     />
+    <link href="/src/fontawesome/css/all.css" rel="stylesheet" />
     <link rel="stylesheet" href="/src/css/styles.css" />
     <link rel="stylesheet" href="/src/css/index.css" />
 
@@ -24,15 +25,146 @@
       <img src="/src/img/header.png" />
     </header> -->
 
-    <h1>Inicio da pagina aqui!</h1>
-
-    <p>Testando a fonte no paragrafo</p>
-
-    <button type="button" class="btn btn-mvp">Exemplo de botão</button>
-
     <!-- <footer>
       <img src="/src/img/footer.png" />
     </footer> -->
+
+    <section class="values">
+      <h2>Nossos valores</h2>
+      <p>Conheça os valores que nos guiam:</p>
+
+      <div class="nossos-valores">
+        <div
+          class="accordion md-accordion"
+          id="accordionEx"
+          role="tablist"
+          aria-multiselectable="true"
+        >
+          <div class="card item">
+            <div class="card-header" role="tab" id="headingOne1">
+              <a
+                data-toggle="collapse"
+                data-parent="#accordionEx"
+                href="#collapseOne1"
+                aria-expanded="true"
+                aria-controls="collapseOne1"
+              >
+                <h5 class="mb-0">
+                  Sua Beleza
+                  <i class="fas fa-angle-down rotate-icon"></i>
+                </h5>
+              </a>
+            </div>
+
+            <div
+              id="collapseOne1"
+              class="collapse show"
+              role="tabpanel"
+              aria-labelledby="headingOne1"
+              data-parent="#accordionEx"
+            >
+              <div class="card-body">
+                Sabemos que com a rotina agitada nem sempre sobre tempo para se
+                cuidar. Por isso o programa Sua Beleza traz para dentro da MRV
+                um “salão de beleza”, facilitando cuidados de rotina.
+              </div>
+            </div>
+          </div>
+
+          <div class="card item">
+            <!-- Card header -->
+            <div class="card-header" role="tab" id="headingTwo2">
+              <a
+                class="collapsed"
+                data-toggle="collapse"
+                data-parent="#accordionEx"
+                href="#collapseTwo2"
+                aria-expanded="false"
+                aria-controls="collapseTwo2"
+              >
+                <h5 class="mb-0">
+                  Sua Mente
+                  <i class="fas fa-angle-down rotate-icon"></i>
+                </h5>
+              </a>
+            </div>
+
+            <!-- Card body -->
+            <div
+              id="collapseTwo2"
+              class="collapse"
+              role="tabpanel"
+              aria-labelledby="headingTwo2"
+              data-parent="#accordionEx"
+            >
+              <div class="card-body"></div>
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="accordion md-accordion"
+          id="accordionEx"
+          role="tablist"
+          aria-multiselectable="true"
+        >
+          <div class="card item">
+            <div class="card-header" role="tab" id="headingThree3">
+              <a
+                data-toggle="collapse"
+                data-parent="#accordionEx"
+                href="#collapseThree3"
+                aria-expanded="true"
+                aria-controls="#collapseThree3"
+              >
+                <h5 class="mb-0">
+                  Sua Beleza
+                  <i class="fas fa-angle-down rotate-icon"></i>
+                </h5>
+              </a>
+            </div>
+
+            <div
+              id="#collapseThree3"
+              class="collapse"
+              role="tabpanel"
+              aria-labelledby="headingThree3"
+              data-parent="#accordionEx"
+            >
+              <div class="card-body"></div>
+            </div>
+          </div>
+
+          <div class="card item">
+            <div class="card-header" role="tab" id="headingFour4">
+              <a
+                class="collapsed"
+                data-toggle="collapse"
+                data-parent="#accordionEx"
+                href="#collapseFour4"
+                aria-expanded="false"
+                aria-controls="collapseFour4"
+              >
+                <h5 class="mb-0">
+                  Sua Mente
+                  <i class="fas fa-angle-down rotate-icon"></i>
+                </h5>
+              </a>
+            </div>
+
+            <div
+              id="collapseFour4"
+              class="collapse"
+              role="tabpanel"
+              aria-labelledby="headingFour4"
+              data-parent="#accordionEx"
+            >
+              <div class="card-body"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
     <script
       src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
