@@ -1,0 +1,32 @@
+main #home {
+    overflow-y:hidden;
+    overflow-x:hidden;
+}
+
+#banner {
+    padding: 1.5rem;
+}
+
+#valores {
+    padding: 1.5rem;
+}
+
+#espaço {
+    padding: 1.5rem;
+}
+
+@media (min-width: 1000px) {
+    #banner {
+        width: 50%;
+    }
+    
+    #valores {
+        width: 50%;
+    }
+
+    #espaço {
+        padding: 1.5rem;
+        width: 50%;
+    }
+}
+
