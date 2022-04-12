@@ -20,10 +20,15 @@
   --branco:#FFFFFF;
 }
 
-html {
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+
   font-family: 'AvertaStd';
   font-size: 1rem;
 }
+
+
 
 
 
