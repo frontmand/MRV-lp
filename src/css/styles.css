@@ -34,7 +34,8 @@ html, body {
 }
 
 body {
-  font-family: 'AvertaStd Regular'
+  font-family: 'AvertaStd Regular';
+  color: var(--p-cinza);
 }
 
 
