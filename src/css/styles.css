@@ -1,0 +1,58 @@
+/* Importação de Fonts (Averta) */
+
+@font-face {
+  font-family: 'AvertaStd';
+  src:
+  url(../fonts/AvertaStd-Bold.ttf) format('opentype')  
+}
+
+
+:root {
+  /* Paleta Principal */
+  --verde-escuro: #006B3F;
+  --verde-claro: #079D56;  
+  --verde-vetor: #00D38D;
+  --laranja: #F18815; 
+
+  --p-cinza: #242625;
+
+  --preto:#000000;
+  --branco:#FFFFFF;
+}
+
+html {
+  font-family: 'AvertaStd';
+  font-size: 1rem;
+}
+
+
+
+/* Tipografia */
+h1, h2, h3, h4, h5, h6, button {font-family: 'AvertaStd';}
+h1, h2 {font-size: 2.5rem;}
+
+/* Estilo Button */
+button.btn-mvp {
+  color: var(--branco);
+  background-color: var(--verde-escuro);
+  border: none;
+}
+
+button.btn-mvp:hover {
+  color: var(--branco);
+  background-color: var(--verde-vetor);
+  border: none;
+}
+
+/* Header e Footer são imagens do prototipo - LEMBRAR DE FAZER A TROCA PARA MOBILE */
+
+
+/* 
+header {
+ 
+}
+
+footer {
+
+}
+ */
