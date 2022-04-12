@@ -1,0 +1,109 @@
+body {
+max-width: 100%;
+
+}
+
+section.values{
+  padding: 2rem;
+}
+
+
+
+section.values h2 {
+  font-size: 1.275rem;
+  
+}
+
+section.values p {
+  font-size: 1rem;
+  font-weight: 100;
+}
+
+div.accordion {
+
+}
+
+div.item {
+  border: none;
+}
+
+div.card-header {
+  background-color: var(--branco);
+  border-bottom: 2px solid var(--verde-claro);
+
+}
+
+div.card-header a {
+  color: var(--branco);
+ }
+ 
+
+div.card-header h5 {
+ color: var(--verde-claro);
+ font-size: 1rem;
+}
+
+div.card-header i {
+ float: right;
+ }
+
+
+
+ @media only screen and (min-width: 1240px) {
+
+  section.values{
+    padding: 5rem;
+  
+  }
+  
+  
+  
+  section.values{
+    
+  }
+  
+
+  section.values p {
+    font-weight: 100;
+  }
+
+  div.nossos-valores {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  div.accordion {
+    height: 400px;
+    width: 390px;
+    margin-left: -0.275rem;
+  }
+
+  div.accordion:nth-child(2) {
+ margin: 0 2rem;
+  }
+  
+  div.item {
+    border: none;
+  }
+  
+  div.card-header {
+    background-color: var(--branco);
+    border-bottom: 2px solid var(--verde-claro);
+  
+  }
+  
+  div.card-header a {
+    color: var(--branco);
+   }
+   
+  
+  div.card-header h5 {
+   color: var(--verde-claro);
+   font-size: 1rem;
+  }
+  
+  div.card-header i {
+   float: right;
+   }
+
+}
