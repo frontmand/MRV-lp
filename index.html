@@ -14,6 +14,7 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="/src/css/styles.css" />
+    <link rel="stylesheet" href="/src/css/home.css" />
 
     <title>Olá, mundo!</title>
   </head>
@@ -23,15 +24,32 @@
       <img src="/src/img/header.png" />
     </header> -->
 
-    <h1>Inicio da pagina aqui!</h1>
-
-    <p>Testando a fonte no paragrafo</p>
-
-    <button type="button" class="btn btn-mvp">Exemplo de botão</button>
-
+    
     <!-- <footer>
       <img src="/src/img/footer.png" />
     </footer> -->
+    <div class="formulario">
+      <h1 class="form-group col-12">Vagas disponíveis</h1>
+      <p class="form-group col-12">Encontre a oportunidade que mais combina<br>com você:</p>
+      <div class="form-group col-12">
+        <label for="MeuInput">Em qual cidade você quer trabalhar?</label>
+        <select class="form-control" id="MeuInput" alt="selecionar uma opção de cidade para prencher o campo">
+          <option value="" disabled selected>Selecionar um tipo</option>
+        </select>
+      </div>
+      <div class="form-group col-12">
+        <label for="MinhaArea">Qual sua área de atuação?</label>
+        <select class="form-control" id="MinhaArea" alt="selecionar uma opção de área de atuação para prencher o campo">
+          <option value="" disabled selected>Selecionar área</option>
+          <option>Validação.</option>
+        </select>
+      </div>
+      <div class="form-group col-12">
+        <label for="MeuTexto">E que tipo de area você procura?</label>
+        <textarea class="form-control" id="MeuTexto" rows="1" alt="Digite para prencher o campo"></textarea>
+      </div>
+    </div>
+    <button type="button" class="btn btn-mvp col-12" id="btn-buscar" alt="Botão para enviar Formulario">Buscar</button>
 
     <script
       src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
@@ -48,5 +66,7 @@
       integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
       crossorigin="anonymous"
     ></script>
+    <script src="js\Formulario.js"></script>
+    <script src="js\buttom.js"></script>
   </body>
 </html>
