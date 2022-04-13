@@ -16,9 +16,9 @@ ul.breadcrumb li {
 }
 
 ul.breadcrumb li+li:before {
-  padding: 8px;
-  color: black;
-  content: "/\00a0";
+  padding: 1.2rem 0.5rem;
+  color: var(--p-cinza);
+  content: ">";
 }
 
 ul.breadcrumb li a {
@@ -73,9 +73,18 @@ div.card-header i {
  float: right;
  }
 
-section.nosso-espaco{
+section.nosso-espaco {
     padding: 1.5rem;
 }
+
+div.carousel-img {
+  border-radius: 2rem;
+}
+
+div.carousel {
+  padding: 0.725rem 1rem;
+}
+
 
 
 
